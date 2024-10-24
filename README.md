@@ -38,11 +38,11 @@ https://nuxt-todo-app.nuxt.dev/
 
 ## Continuous Integration
 
-This project includes a GitHub Actions workflow that runs the tests on every PR to ensure code quality. PRs to the main branch must pass CI checks before merging.
+This project includes a GitHub Actions workflow that runs the tests on every PR to ensure code quality. PRs to the `main` branch must pass CI checks before merging.
 
 ## Contributing
 
-To contribute, create a pull request (PR) to the main branch. Direct pushes to main are restricted and require approval via PR.
+To contribute, create a pull request (PR) to the `main` branch. Direct pushes to main are restricted and require approval via PR.
 
 ## License
 
