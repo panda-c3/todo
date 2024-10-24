@@ -1,75 +1,50 @@
-# Nuxt UI Minimal Starter
+# Todo List App
 
-Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui.nuxt.com) to learn more.
+This is a simple and responsive Todo List application built with [Nuxt UI](https://nuxt.com/ui) and [NuxtHub](https://github.com/nuxt/nuxthub). It allows users to add, track, and delete tasks efficiently. 
 
-## Setup
+## Here is the hosted url on NuxtHub
 
-Make sure to install the dependencies:
+https://nuxt-todo-app.nuxt.dev/
 
-```bash
-# npm
-npm install
+## Features
 
-# pnpm
-pnpm install
+- Add, edit, and delete tasks
+- Responsive design
+- Minimalistic UI
+- Integration with NuxtHub for state management
 
-# yarn
-yarn install
+## Prerequisites
 
-# bun
-bun install
-```
+- Node.js v16 or higher
+- npm or yarn
 
-## Development Server
+## Installation
 
-Start the development server on `http://localhost:3000`:
+1. Clone the repository:
 
-```bash
-# npm
-npm run dev
+   ```bash
+   git clone https://github.com/panda-c3/todo.git
+   cd todo
 
-# pnpm
-pnpm run dev
+2. Install dependencies:
 
-# yarn
-yarn dev
+    ```bash
+    npm install
 
-# bun
-bun run dev
-```
+3. Run the development server:
 
-## Production
+    ```bash
+    npm run dev
 
-Build the application for production:
+## Continuous Integration
 
-```bash
-# npm
-npm run build
+This project includes a GitHub Actions workflow that runs the tests on every PR to ensure code quality. PRs to the main branch must pass CI checks before merging.
 
-# pnpm
-pnpm run build
+## Contributing
 
-# yarn
-yarn build
+To contribute, create a pull request (PR) to the main branch. Direct pushes to main are restricted and require approval via PR.
 
-# bun
-bun run build
-```
+## License
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is licensed under the MIT License.
+Feel free to copy this and adjust as necessary!
